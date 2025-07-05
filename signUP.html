@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-UP</title>
+    <link rel="stylesheet" href="./overall.css" />
+    <link rel="stylesheet" href="/sign.css" />
+</head>
+<body>
+    <div class="container">
+          <form action="getStarted.html" method="get">
+            <h1>Create an account</h1>
+            <div class="inner-form">
+            <article>
+               <label for="Name">UserName</label>
+               <input type="text"  name="Name" id="Name" required/>
+               <!--making name and input as one item -->
+            </article>
+            <article>
+               <label for="email">Email ID</label>
+               <input type="email" name="email" id="email" required/>
+               <!--making name and input as one item -->
+            </article>
+            </div>
+           
+            
+            <div class="inner-form">
+            <article>
+               <label for="password">New Password</label>
+               <input type="password" name="password" id="passwprd" required/>
+            </article>
+            <article>
+               <label for="password2">Confirm</label>
+               <input type="password" name="password2" id="password" required/>
+            </article>
+        </div>
+    
+            <button  onclick="handleSignUp()" id= "username" class="btn" type="submit">Sign up</button>
+          </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

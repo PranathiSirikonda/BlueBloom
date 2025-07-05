@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🪻BlueBloom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--For icons -->
+    <link rel="stylesheet" href="overall.css" />
+    <link rel="stylesheet" href="index.css" />
+
+</head>
+<body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo">
+                
+            </div>
+            <div onclick=window.location.href="#"; class="title">
+                BlueBloom
+            </div>
+            
+        </div>
+        <div class="nav-address border">
+           <p class="add-one">Deliver to</p>
+           <div>
+           <i class="fa-solid fa-location-dot"></i>
+           <p class="add-two">India</p>
+           </div>
+        </div>
+       
+        <div class="nav-search">
+            <select class="select-opt">
+                <option >All</option>
+                <option>Edibles</option>
+                <option>Skin Care</option>
+                <option>Hair Care</option>
+            </select>
+            <input type="text" placeholder="Search BlueBloom" class="search" />
+            <div class="s-icon"><a href="#">
+            <i  class="fa-solid fa-magnifying-glass"></a></i>
+            </div>
+        </div>
+        <div class="nav-signin border">
+            
+            <p><a href="signUP.html"><span id="signUp">Sign-Up<i class="fa-solid fa-arrow-right-to-bracket"></i></span></a></p>
+        </div>
+        <a href="#"><div class="user border">
+            
+            <i class="fa-solid fa-user"></i>
+            <p><span>Account</span></p>
+          
+        </div></a>
+        <div class="cart border">
+            <p><a href="#"><i class="fa-solid fa-cart-shopping"></i><span>Cart</span></a></p>
+        </div>
+      </div>
+   </header>
+   
+   <section class="hero">
+   <div class="hero-content">
+    <article><h1>
+        Nature's Wellness
+        <br>
+        Delivered to you
+    </h1></article>
+    <article ><button class="explore-btn"><a href="#products" class="explore-btn">Explore &darr;</a></button>
+    </article>
+   </div>
+   </section>
+   <!--FOR PRODUCTS-->
+   <section class="products" id="#products">
+     <div class="OurProducts"><h2>Our Products</h2></div>
+
+      <div class="scroll">
+         <!--Category 1-->
+            <div class="category tea">
+             <h3>BlueBloom Edibles</h3>
+              <div class="cards">
+                    <div class="card ">
+                     <img src="./images/herbalTea.png" />
+                      <h4>Herbal Tea</h4>
+                      
+                      <button class="buy">Buy Now</button>
+                    </div>
+                    <div class="card">
+                     <img src="./images/rice.png" />
+                      <h4>Blue Pea Rice</h4>
+                     
+                      <button class="buy">Buy Now</button>
+                
+                    </div>
+                   <div class="card">
+                      <img src="./images/foodColor.png">
+                     <h4>Natural Tint</h4>
+                     <button class="buy">Buy Now</button>
+                
+                    </div>
+
+                </div>
+            </div>  
+         <!--Category 2-->
+           <div class="category skin">
+             <h3>Skin Care</h3>
+              <div class="cards">
+                  <div class="card">
+                     <img src="./images/facemist.png" alt="Face Mist"/>
+                     <h4>Face Mist</h4>
+                     
+                     <button class="buy">Buy Now</button>
+
+                   </div>
+                  <div class="card">
+                     <img src="./images/moist.png">
+                      <h4>Radiant Moisturizer</h4>
+                     <button class="buy">Buy Now</button>
+                
+                  </div>
+                  <div class="card">
+                      <img src="./images/soap.png">
+                     <h4>Natural Soap</h4>
+                     
+                     <button class="buy">Buy Now</button>
+                
+                   </div>
+                </div>
+            </div>
+         <!---Category 3-->
+            <div class="category hair">
+               <h3>Hair Care</h3>
+               <div class="cards">
+                    <div class="card">
+                       <img src="./images/Shampoo.png">
+                     <h4>Herbal Shampoo</h4>
+                     <button class="buy">Buy Now</button>
+                      
+                    </div>
+                    <div class="card">
+                      <img src="./images/Conditioner.png">
+                     <h4>Hair Vitalizing Serum</h4>
+                     
+                     <button class="buy">Buy Now</button>
+                      
+                    </div>
+                    <div class="card">
+                     <img src="./images/HairCream.png">
+                      <h4>Hair Repair Cream</h4>
+                     
+                     <button class="buy">Buy Now</button>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="learn">
+            <button onclick="goToLearn()" class="about" >Know More About BluePea & Products</button>
+        </div>
+        <div class="faq">
+            <button class="about" >Frequently asked Questions<i  class="fa-solid fa-magnifying-glass"></i></button>
+        
+            
+        </div>
+        <button onclick="ScrollTop()" id="ScrollUp" ><i class="fa-solid fa-up-long"></i></button>
+   </section>
+  
+   <footer>
+    
+      <div class="box">
+        <div class="title sub-box">
+                BlueBloom
+        </div>
+        <div class="panel">
+        <div class="panel1 sub-box">
+             <h5>About Us</h5>
+             <p>BlueBloom is a nature-inspired brand that creates wellness.We're committed to purity, sustainability, and bringing beauty powered by nature. </p>
+        </div>
+        <div class="panel2 sub-box">
+             <h5>Contact Us</h5>
+             <p><i class="fa-solid fa-envelope"></i>bb@contact.com</p>
+             <p><i class="fa-solid fa-phone"></i>0123456789</p>
+        </div>
+        </div>
+
+      </div>
+      <div class="icons">
+        <div class="icon1">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        </div>
+        <div class="icons">
+             <p>&copy; 2025, BlueBloom</p>
+        </div>
+    
+   </footer>
+   
+   <script src="script.js"></script>
+</body>
+</html>
